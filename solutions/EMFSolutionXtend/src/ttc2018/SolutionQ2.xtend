@@ -52,7 +52,7 @@ class SolutionQ2 extends Solution {
 		
 		val comps = layering.CreateLayers(c.likedBy)
 		val score = comps.map[size*size].reduce[$0+$1] ?: 0
-			
+
 		return score
 	}
 }
